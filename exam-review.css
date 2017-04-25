@@ -1,3 +1,6 @@
+body {
+  background: grey;
+}
 h1 {
   font-size: 45px;
   font-weight: bold;
@@ -9,4 +12,15 @@ h4 {
 }
 h2 {
   border-bottom: 1px solid black;
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 15px;
+  overflow: auto;
+  box-sizing: border-box;
+}
+.right-column {
+  background-color: #f7f7f7;
 }
